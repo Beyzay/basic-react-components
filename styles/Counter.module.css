@@ -1,0 +1,46 @@
+.container {
+    padding: 8px;
+    margin: 16px 16px 0 16px;
+    max-width: 600px;
+}
+
+.flexContainer {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.count {
+    width: 96px;
+    text-align: center;
+}
+
+.countNumber {
+    font-weight: bold;
+    color: #00ced1; 
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #40e0d0;
+    color: #f8f8ff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #00ced1;
+}
+
+.button:active {
+    background-color: #afeeee;
+}
