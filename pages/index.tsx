@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../components/Header";
 import MainContent from "../components/MainContent";
 import Counter from "../components/Counter";
+import ToggleVisibility from "../components/ToggleVisibility";
 
 export default function Home() {
   const titleVar = "THE DARK KNIGHT, 2008";
@@ -15,6 +16,9 @@ export default function Home() {
         content = {contentVar}
       />
       <Counter />
+      <br/><br/>
+      <ToggleVisibility />
+      <br/><br/>
     </div>
   );
 }
