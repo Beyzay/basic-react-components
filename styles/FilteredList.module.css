@@ -1,0 +1,42 @@
+.container {
+    padding: 8px;
+    margin: 16px 16px 0 16px;
+    max-width: 600px;
+}
+
+.flexContainer {
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: #40e0d0;
+    color: #f8f8ff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #00ced1;
+}
+
+.button:active {
+    background-color: #afeeee;
+}
