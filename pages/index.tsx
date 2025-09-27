@@ -5,6 +5,7 @@ import Counter from "../components/Counter";
 import ToggleVisibility from "../components/ToggleVisibility";
 import Form from "../components/Form";
 import FilteredList from "../components/FilteredList";
+import HoverInteraction from "../components/HoverInteraction";
 
 export default function Home() {
   const titleVar = "THE DARK KNIGHT, 2008";
@@ -24,6 +25,8 @@ export default function Home() {
       <Form />
       <br/><br/>
       <FilteredList />
+      <br/><br/>
+      <HoverInteraction />
       <br/><br/>
     </div>
   );

@@ -1,0 +1,31 @@
+.container {
+    padding: 8px;
+    margin: 16px 16px 0 16px;
+    max-width: 600px;
+}
+
+.flexContainer {
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.default {
+    width: 100%;
+    max-width: 500px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8ff;
+}
+
+.hovered {
+    width: 100%;
+    max-width: 500px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #afeeee;
+}
