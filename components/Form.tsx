@@ -1,12 +1,12 @@
 import { useState } from "react";
 import styles from "../styles/Form.module.css";
 
-export default function ToggleVisibility() {
+export default function Form() {
     const [input, setInput] = useState("");
     const [submissionMessage, setSubmissionMessage] = useState("");
 
     // Define an event handler function
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent) => {
         // Prevent default behavior (form submission)
         e.preventDefault();
         
