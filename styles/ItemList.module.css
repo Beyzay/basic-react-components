@@ -1,0 +1,92 @@
+.container {
+    padding: 8px;
+    margin: 16px 16px 0 16px;
+    max-width: 600px;
+}
+
+.flexContainer {
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    font-weight: bold;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.li {
+    display: flex;
+    padding: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    height: 40px;
+    min-width: 96px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #40e0d0;
+    color: #f8f8ff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #00ced1;
+}
+
+.button:active {
+    background-color: #afeeee;
+}
+
+.addItemContainer {
+    display: flex;
+    margin-bottom: 8px;
+    gap: 16px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterContainer {
+    display: flex;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputText {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.inputCheckbox {
+    margin-right: 8px;
+}
