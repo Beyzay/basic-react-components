@@ -6,6 +6,7 @@ import ToggleVisibility from "../components/ToggleVisibility";
 import Form from "../components/Form";
 import FilteredList from "../components/FilteredList";
 import HoverInteraction from "../components/HoverInteraction";
+import Itemlist from "../components/ItemList";
 
 export default function Home() {
   const titleVar = "THE DARK KNIGHT, 2008";
@@ -28,6 +29,9 @@ export default function Home() {
       <br/><br/>
       <HoverInteraction />
       <br/><br/>
+      <div style={{ marginBottom: "48px"}}>
+        <Itemlist />
+      </div>
     </div>
   );
 }
